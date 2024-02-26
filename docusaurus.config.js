@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: 'Unprofessional',
-                to: '/docs/life/intro',
+                to: '/docs/life/about',
               },
               {
                 label: 'Blog',
