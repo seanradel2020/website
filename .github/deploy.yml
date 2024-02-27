@@ -1,29 +1,26 @@
-name: Deploy to GitHub Pages
+name: Deploy Website
 
 on:
   push:
     branches:
-      - gh-pages
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
-
-permissions:
-  contents: write
+      - main  # Trigger the workflow when code is pushed to the main branch
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: npm
 
-      - name: Install dependencies
-        run: npm ci --force
-      - name: Build website
-        run: npm run build
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Action to checkout your repository's code
+
+    - name: Install dependencies and build
+      run: |
+        npm install  # Or any other command to install dependencies
+        npm run build  # Or command to build your website
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3  # Using a community action to deploy to gh-pages
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build  # Specify the directory where your built website is located
+        cname: radel.dev  # Custom domain configuration
