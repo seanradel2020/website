@@ -18,22 +18,22 @@ I strive to be a leader in all aspects of life. Leadership is something that is 
 **Beer -** Beer is a very popular subject in college. I was lucky enough to take a course on it - Brewing with Food Science. The course focused on the process of beer making as well as the ingredients that go into beer and their functions. I love going to breweries with my friends, my favorite one in particualr is [Marsh Island Brewing](https://www.marshislandbrewing.com/), they make a killer stout. 
 
 ### Outdoors
-**Fishing -**
+**Fishing -** I love to fish and I'm a proponent of wildlife conservation. I have been fishing with my Dad and my brother for as long as I can remember. My favorite species to  target are striped bass, large mouth bass, small mouth bass, brook trout, and lake trout. 
 
-**Sailing -**
+**Sailing -** In the summer of 2023, while I was interning at General Dynamics Electric Boat, I decided I wanted to learn how to sail. My office was located in New London, CT., which is just next door to historic Mystic, CT. The sailing culture in eastern CT is almost as great as Newport, RI. Sailing lessons were expensive, so I sought an alternative route. I researched local sail boats, and emailed (Captain Stuart Reininger)[https://www.marinepro.net/]. I made a great deal with Captain Stu, I would volunteer on his boat as a deckhand, and he would teach me how to sail. Throughout my 8 weeks in CT, I got to sail **Tall Tales**, a 35-foot ocean-crossing sailing cutter. This was an unforgetable experience, and I hope I can continue sailing as I continue my career. 
 
-**Gardening -**
+**Gardening -** I enjoy working on my garden at home. I have a passion for landscaping, and one day I want to build a big garden at my home. This year, I am looking to grow potatoes and more spices. 
 
-**Hiking -**
+**Hiking -** Some of my favorite hikes in New England are Tumbledown Mountain, and Mount Chocorua.  
 
-**Surfing -**
+**Surfing -** I love to surf but unfortunately do not make it out in the water too often. Between school and internships, surfing always gets put on the back burner. After college, I hope I can continue this hobby as my schedule becomes more consistent. 
 
 ### Sports
 **Wrestling -** Growing up, wrestling was a big part of my life. Through wrestling I learned how to overcome physical and mental challenges, and push myself further than I thought I could ever go. I finished my high school career with 109 wins, placing 3rd at the Maine State Championship at 120 lb weight class. I was the captain of the Kennebunk High School wrestling team, and the President of the University of Maine Wrestling team.   
 
-**Golf -** 
+**Golf -** I started my golf career when I worked at [Webhannet Golf Club](https://webhannetgolfclub.com/) in Kennebunk, Maine. Every morning I mowed the greens before opening the course to players. As a benefit of working there, I got to golf for free in the evenings. My favorite thing about golf is the serenity out on the fairways. My personal best game was when I shot a 93 at Shipyard Golf Club in Hilton Head Island. 
 
-**Soccer -**
+**Soccer -** I was never the greatest player on the soccer field, but I always strived to be the hardest working. In high school I played outside back, and left and right wing. Now that I play in co-ed leagues in college, I usually play midfield. My favorite teams are Arsenal, Liverpool, and New England Revolution.
 
 
 

@@ -44,7 +44,7 @@ for compliance. I utilize Jenkins and Pulumi to build and provision resources. F
 three months of my internship, I will focus on managing our Jenkins platform, implementing security
 scanners into our pipeline, and developing our CI/CD pipeline for our FedRamp environments.
 
-**University of Maine** 
+**University of Maine**  
 While at the University of Maine, I worked at the VEMI Lab and the Scalable & Portable Infrastructure
 for Cybersecurity Education (SPICE) lab. I am also a research assistant with the Privacy Engineering
 Regulatory Compliance Lab (PERC_Lab). 
@@ -53,7 +53,7 @@ I am a teaching assistant for UMaine’s Introduction to Cybersecurity, which co
 defense; and implementation issues in Unix/Linux. I help students understand OWASP's top 10, MITRE’s
 CVEs and CWEs, and CISA’s Known Exploited Vulnerabilities Catalog.
 
-**SPICE Lab** 
+**SPICE Lab**  
 At the SPICE lab, I had the opportunity to lead our research team in the development of cloud and
 physical server infrastructure. As the team moderator, I led our planning meetings and helped delegate
 short-term tasks. I developed our logging solution using Wazuh and the Elastic Stack technologies and
@@ -63,7 +63,7 @@ To assist with our goals, I used Terraform and Docker-Compose to automate Amazon
 containers. We utilized Docker containers to create scalable cybersecurity labs hosted for University of
 Maine Cybersecurity Team members.
 
-**UMCST** 
+**UMCST**  
 As president of the University of Maine Cybersecurity Team, I led recruits through an ethical hacking lab
 and co-led Linux security, basic networking, and networking enumeration labs. I briefed members on
 cybersecurity current events and technologies each week and led work sessions to prepare for
