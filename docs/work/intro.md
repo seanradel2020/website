@@ -2,46 +2,76 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About Me
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**As a graduating computer science student at the University of Maine, I have a strong background
+in cybersecurity and cloud operations through my internship at CyberArk and leading the University of Maine Cybersecurity Team. I am seeking full time employment in Security, Cloud, DevOps, or IT Infrastructure positions.** 
 
-## Getting Started
+Please contact for full resume.
 
-Get started by **creating a new site**.
+### Contact Me 
+**email:** sean.radel@maine.edu
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Experience 
+**CyberArk** Cloud Security Engineering Intern - **August 2023 - Present** 
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**General Dynamics Electric Boat** Systems Engineering Intern - **June 2023 - July 2023** 
 
-## Generate a new site
+**US Federal Government** Cybersecurity Intern - **May 2022 - August 2022** 
 
-Generate a new Docusaurus site using the **classic template**.
+### Research & Associations 
+**Privacy Engineering Regulatory Compliance Lab** Research Assistant - **January 2023 - Present** 
 
-The classic template will automatically be added to your project after you run the command:
+**VEMI LAB** Research Assistant - **May 2022 - May 2023** 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**University of Maine Cybersecurity Team** President, Member - **September 2020 - September 2022** 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+**Scalable & Portable Infrastructure for Cybersecurity Education** Research Assistant - **May 2021 - May 2022** 
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Certifications 
+**AWS Certified Cloud Practitioner** - **December 2023** 
 
-## Start your site
+### Publications 
+**Evaluating Privacy Questions from Stack Overflow: Can ChatGPT Compete?** - ieee 2023 -  [read here](https://ieeexplore.ieee.org/document/10260753)
 
-Run the development server:
+### More
 
-```bash
-cd my-website
-npm run start
-```
+**CyberArk**  
+During my internship at CyberArk, I gained hands-on experience as a cloud security engineer intern. I am one of
+two security champions on a DevOps team and have developed internal tools for scanning AWS resources
+for compliance. I utilize Jenkins and Pulumi to build and provision resources. For the remaining
+three months of my internship, I will focus on managing our Jenkins platform, implementing security
+scanners into our pipeline, and developing our CI/CD pipeline for our FedRamp environments.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+**University of Maine** 
+While at the University of Maine, I worked at the VEMI Lab and the Scalable & Portable Infrastructure
+for Cybersecurity Education (SPICE) lab. I am also a research assistant with the Privacy Engineering
+Regulatory Compliance Lab (PERC_Lab). 
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+I am a teaching assistant for UMaine’s Introduction to Cybersecurity, which covers the nature of network and computer attacks, system vulnerabilities and
+defense; and implementation issues in Unix/Linux. I help students understand OWASP's top 10, MITRE’s
+CVEs and CWEs, and CISA’s Known Exploited Vulnerabilities Catalog.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**SPICE Lab** 
+At the SPICE lab, I had the opportunity to lead our research team in the development of cloud and
+physical server infrastructure. As the team moderator, I led our planning meetings and helped delegate
+short-term tasks. I developed our logging solution using Wazuh and the Elastic Stack technologies and
+automated patching and maintenance with Ansible.
+
+To assist with our goals, I used Terraform and Docker-Compose to automate Amazon Web Services provisioning and deployment of services within
+containers. We utilized Docker containers to create scalable cybersecurity labs hosted for University of
+Maine Cybersecurity Team members.
+
+**UMCST** 
+As president of the University of Maine Cybersecurity Team, I led recruits through an ethical hacking lab
+and co-led Linux security, basic networking, and networking enumeration labs. I briefed members on
+cybersecurity current events and technologies each week and led work sessions to prepare for
+competitions. Notably, I captained our third-place winning team at the Northeast Collegiate Cyber
+Defense competition.
+
+
+
+
+
+

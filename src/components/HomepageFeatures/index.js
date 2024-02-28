@@ -4,42 +4,40 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Explore My Work',
+    image: require('@site/static/img/mountain.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Check out my projects, my research, and my experience
+      </>
+    ),
+  },
+   {
+    title: 'Learn About My Personal Interests',
+    image: require('@site/static/img/portrait.jpg').default,
+    description: (
+      <>
+        When I'm not working, I like to be by the water, trying new wine and craft beer, cooking a new recipe, or hiking a mountain
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Read My Blog',
+    image: require('@site/static/img/surf.jpg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I will talk about any sort of topics here, but mainly fine wine and software design
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ image, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureImage} src={image} alt={title} /> {/* Use the image prop */}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -48,7 +46,6 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
-
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>

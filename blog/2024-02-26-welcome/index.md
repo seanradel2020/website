@@ -11,12 +11,12 @@ tags: [hello, welcome]
 
 **Welcome to my blog!**
 
-I am a graduating computer science student from the Univeristy of Maine. I will use this blog to post guides, opinions, experiences, and updates on projects. 
+I am a graduating computer science student from the Univeristy of Maine. I will use this blog to post guides, opinions, experiences, and updates on projects. Read the about sections in my "Professional" and "Unprofessional" tabs to learn more about my background. 
 
 
 :::tip
 
-Connect with me on Linkedin and follow me on Instagram to best keep up with me.
+I am mostly active on social media, connect with me on Linkedin to be notified when I post
 
 
 :::
