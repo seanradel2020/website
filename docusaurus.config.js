@@ -110,11 +110,11 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Professional',
+                label: 'Work',
                 to: '/docs/work/intro',
               },
               {
-                label: 'Unprofessional',
+                label: 'Life',
                 to: '/docs/life/about',
               },
               {
