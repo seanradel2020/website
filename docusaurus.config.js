@@ -73,13 +73,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Professional',
+            label: 'Work',
           },
           {
             type: 'docSidebar',
             sidebarId: 'lifeSidebar',
             position: 'left',
-            label: 'Unprofessional',
+            label: 'Life',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
