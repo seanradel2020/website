@@ -164,7 +164,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Sean Radel - Built with Docusaurus.`,
+        copyright: `Sean Radel - 2024`,
         //${new Date().getFullYear()}
       },
       prism: {
