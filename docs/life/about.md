@@ -1,43 +1,35 @@
+---
+sidebar_position: 1
+---
+
 # About Me
 
- **Discover I love outside of work and school**
+**As much as I love my work on computers, I love to get off of them sometimes. I'm an avid chef, I love wine tasting as well as craft beer. I like to hike, fish, surf, and in 2023 I learned how to sail. I've been learning to golf, but I've played soccer and wrestled my entire life. I currently play intramural soccer at UMaine, and will look to play in adult leagues after graduating. I stay active in the wrestling community by volunteer coaching at Kennebunk High School, and pracaticing with the UMaine Wrestling Team. I started gardening in 2022, and have enjoyed fresh strawberries, carrots, tomatoes, and flowers.**
 
-## Getting Started
+### Wine, Cooking, Beer
+**Wine -** I enjoy trying new wines and wine pairings. I owe many thanks to Betsy Ross at [Wine House On Maine](https://www.winehousemaine.com/) for introducing me to so many great wines. When I started my wine journey, I only liked fruity whites and rosés, but I've really grown to appreciate red wine. My favorite in particular is Cabernet Sauvignon.  
 
-Get started by **creating a new site**.
+**Cooking -** I make a mean pizza, I've recently been learning how to make bread from scratch, and I also make pasta from scratch. My meals are usually heavy in meat, beans, and vegetables, but I also love italian food. My favorite dish to make is shrimp scampi with homemade pasta. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Beer -** Beer is a very popular subject in college. I was lucky enough to take a course on it - Brewing with Food Science. The course focused on the process of beer making as well as the ingredients that go into beer and their functions. I love going to breweries with my friends, my favorite one in particualr is [Marsh Island Brewing](https://www.marshislandbrewing.com/), they make a killer stout. 
 
-### What you'll need
+### Outdoors
+**Fishing -**
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Sailing -**
 
-## Generate a new site
+**Gardening -**
 
-Generate a new Docusaurus site using the **classic template**.
+**Hiking -**
 
-The classic template will automatically be added to your project after you run the command:
+**Surfing -**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Sports
+**Wrestling -** 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+**Soccer -**
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+**Golf -**
 
-## Start your site
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
