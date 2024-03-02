@@ -20,6 +20,7 @@ Our system is broken down into three core components: the front-end, the back-en
 Currently, to streamline development of the system, all components are run in Docker containers. We utilize docker-compose to quickly build and destory our entire system. Our front-end is built with React and CSS, our API is built using Node.js and express, and we use MySQL as our database.
 
 
+
 ### [View on GitHub](https://github.com/gsb02/IMSG_Capstone)
 
 

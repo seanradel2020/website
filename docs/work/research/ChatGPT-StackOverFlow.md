@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# IEEE 2023
+# Publication - IEEE 2023
 
 ### Abstract
 
