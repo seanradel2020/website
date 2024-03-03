@@ -4,7 +4,10 @@ sidebar_position: 2
 
 # Wine List 
 
-**Below you will find my list of wine ratings and reviews. I am a novice wine taster and I rate these wines very liberally, so please, take them with a grain of salt. All ratings are out of 5.**
+**Below you will find my list of wine ratings and reviews. All ratings are out of 5.**
+
+
+![Maugle Sierra Winery](./img/winery.jpg)
 
 | Wine Name | Vintage | Rating | Location | Review Date | Review |
 |-----------|---------|--------|----------|-------|--------|
@@ -31,4 +34,4 @@ sidebar_position: 2
 | Isaac Fernandez, Biutiful Cava Brut Nature | Unknown | 3.6 | Cava, Spain | December, 2023 | This was a good wine but did not pair well with the shrimp cocktail. | 
 | Meadowcroft, Cabernet Sauvignon | 2021 | 4.6 | Napa Valley | January, 2024 | This was a great bottle and a great gift from my brother. Earthy, blackberry. Paired with homemade meatball and it was very good. | 
 |Chateau d'Esclans, Whispering Angel Rosé | 2022 | 3.4 | Cotes de Provence, France| January, 2024 | Not a bad bottle of wine. Dry, white. | 
-|Cigar Box, Reserve Cabernet Sauvignon | 2010 | 1.7 | Central Valley, Chile| February, 2024 | This bottl was not good. Of all 4 people drinking this wine, no one wanted to finish the glass. Dry, bold, and tobacco.| 
+|Cigar Box, Reserve Cabernet Sauvignon | 2010 | 1.7 | Central Valley, Chile| February, 2024 | This bottle was not good. Of all 4 people drinking this wine, no one wanted to finish the glass. Dry, bold, and tobacco.| 
