@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8701],{2749:e=>{e.exports=JSON.parse('{"label":"GDPR","permalink":"/blog/tags/gdpr","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);
