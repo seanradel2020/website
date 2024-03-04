@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About Me
 
-**I have many great hobbies outside of work. I enjoy cooking and take pleasure in wine tasting and exploring craft beers. Outdoor activities like hiking, fishing, surfing, and sailing, a skill I picked up in 2023, are among my favorite outdoor activiviesS. I've recently taken up golf, but my lifelong sports have been soccer and wrestling. I currently participate in intramural soccer at UMaine and plan to join adult leagues post-graduation. My connection to wrestling remains strong through my volunteer coaching at Kennebunk High School and practicing with the UMaine Wrestling Team. In 2022, I discovered a love for gardening, enjoying the fruits of my labor with fresh strawberries, carrots, tomatoes, and beautiful flowers.**
+**I have many great hobbies outside of work. I enjoy cooking and take pleasure in wine tasting and exploring craft beers. Hiking, fishing, surfing, and sailing, a skill I picked up in 2023, are among my favorite outdoor activivies. I've recently taken up golf, but my lifelong sports have been soccer and wrestling. I currently participate in intramural soccer at UMaine and plan to join adult leagues post-graduation. My connection to wrestling remains strong through my volunteer coaching at Kennebunk High School and practicing with the UMaine Wrestling Team. In 2022, I discovered a love for gardening, enjoying the fruits of my labor with fresh strawberries, carrots, tomatoes, and beautiful flowers.**
 
 ### Leadership
 
