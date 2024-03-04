@@ -28,7 +28,7 @@ Recently, fashion retailer Forever 21 suffered a data breach that exposed names,
 
 1. Wörsdörfer, Manuel, Ethical Theories (Aristotelianism, Utilitarianism, Kantianism) (Supplemental Material) (Week 1)
 2. Savulescu J, Persson I, Wilkinson D. Utilitarianism and the pandemic. Bioethics. 2020 Jul;34(6):620-632. doi: 10.1111/bioe.12771. PMID: 32433782; PMCID: PMC7276855.
-3. Lee, Francis, et al. “Utilitarianism: Pros and Cons.” Phronesis, Eidenai OER, 1 July 2019, [pressbooks](pressbooks.pub/phronesis/chapter/utilitarianism-pros-and-cons/).
+3. Lee, Francis, et al. “Utilitarianism: Pros and Cons.” Phronesis, Eidenai OER, 1 July 2019, [pressbooks](https://pressbooks.pub/phronesis/chapter/utilitarianism-pros-and-cons/).
 4. Lawton, George. “5 Examples of Ethical Issues in Software Development: TechTarget.” Software Quality, TechTarget, 22 Dec. 2020, [www.techtarget.com/searchsoftwarequality/tip/5-examples-of-ethical-issues-in-software-development](https://techtarget.com/searchsoftwarequality/tip/5-examples-of-ethical-issues-in-software-development).
 5. Johnson, Robert, and Adam Cureton. “Kant’s Moral Philosophy.” Stanford Encyclopedia of Philosophy, Stanford University, 21 Jan. 2022, [plato.stanford.edu/entries/kant-moral/](https://plato.stanford.edu/entries/kant-moral/).
 6. Hope, Alicia. “Data Breach at Apparel Giant Forever 21 Impacts over 500,000 Individuals.” CPO Magazine, 5 Sept. 2023, [www.cpomagazine.com/cyber-security/data-breach-at-apparel-giant-forever-21-impacts-over-500000-individuals/](https://www.cpomagazine.com/cyber-security/data-breach-at-apparel-giant-forever-21-impacts-over-500000-individuals/).
