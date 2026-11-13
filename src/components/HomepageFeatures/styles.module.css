@@ -1,11 +1,28 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.section { padding: 4.5rem 0; }
+.heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 1.5rem; margin-bottom: 2.4rem; }
+.eyebrow { font-size: .7rem; letter-spacing: .15em; color: var(--site-muted); font-weight: 600; margin-bottom: 1.4rem; }
+.heading h2 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.15; letter-spacing: -.04em; margin: 0; }
+.heading > a { color: var(--ifm-font-color-base); font-size: .85rem; white-space: nowrap; }
+.heading > a span { color: var(--ifm-color-primary); padding-left: .5rem; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.project { background: var(--site-surface); border: 1px solid var(--site-line); padding: 1.6rem; display: flex; flex-direction: column; transition: border-color .2s ease; }
+.project:hover { border-color: var(--ifm-color-primary); }
+.projectTop { display: flex; justify-content: space-between; font-family: Georgia, 'Times New Roman', serif; color: var(--ifm-color-primary); font-size: 1.3rem; margin-bottom: 2.5rem; }
+.category { color: var(--site-muted); font-size: .58rem; letter-spacing: .1em; margin-bottom: .8rem; font-weight: 600; }
+.project h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: -.035em; line-height: 1.35; }
+.project h3 a { color: var(--ifm-font-color-base); }
+.description { color: var(--site-muted); font-size: .87rem; line-height: 1.8; flex: 1; }
+.tools { border-top: 1px solid var(--site-line); padding-top: 1rem; margin: .8rem 0 0; color: var(--site-muted); font-size: .65rem; line-height: 1.8; }
+
+@media (max-width: 996px) {
+  .grid { gap: .8rem; }
+  .project { padding: 1.2rem; }
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+@media (max-width: 760px) {
+  .section { padding: 2.8rem 0; }
+  .heading { align-items: flex-start; flex-direction: column; }
+  .grid { grid-template-columns: 1fr; gap: 1rem; }
+  .project { padding: 1.5rem; }
+  .projectTop { margin-bottom: 1.5rem; }
 }
