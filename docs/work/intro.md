@@ -1,77 +1,85 @@
 ---
 sidebar_position: 1
+title: Work & experience
+description: Cloud infrastructure, FedRAMP, site reliability, and automation. Sean Radel's engineering experience and research.
 ---
 
-# About Me
+I'm a **Senior IT Systems Engineer at Palo Alto Networks**, working across cloud governance, site reliability, and security automation. I build and operate infrastructure in commercial AWS and FedRAMP High environments, with a focus on making systems more reliable and reducing manual work.
 
-**As a graduating computer science student at the University of Maine, I have a strong background
-in cybersecurity and cloud operations through my internship at CyberArk and leading the University of Maine Cybersecurity Team. I am seeking full time employment in Security, Cloud, DevOps, or IT Infrastructure positions.** 
+My background spans DevOps, cloud security, infrastructure engineering, and privacy research. More recently, I've been building AI tooling to help engineering teams handle support requests more effectively.
 
-Please contact for full resume.
+[Email me](mailto:sradel2024@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sean-radel/) · [GitHub](https://github.com/seanradel2020)
 
-### Contact Me 
-**email:** sean.radel@maine.edu
+## Experience
 
+### Palo Alto Networks {#palo-alto-networks}
 
-### Experience 
-**CyberArk** Cloud Security Engineering Intern - **August 2023 - Present** 
+**Senior IT Systems Engineer · February 2026–present**
 
-**General Dynamics Electric Boat** Systems Engineering Intern - **June 2023 - July 2023** 
+- Lead SRE for the Stacklet cloud governance platform across AWS GovCloud and commercial AWS, supporting several thousand cloud accounts. Own availability, upgrades, and incident response.
+- Own FedRAMP continuous monitoring for the self-hosted platform, including ECS container vulnerability remediation, monthly POA&M tracking, and assessment evidence and auditor presentations.
+- Build an AI support-triage bot using AWS Bedrock, Lambda, and Slack for an SRE team supporting 1,000+ GKE namespaces. It uses two years of support history and Confluence documentation to classify requests and ask follow-up questions.
+- Designed a support taxonomy using 3,000 annotated historical examples to help route requests and report on recurring issues, ownership, and time to resolution.
+- Operate the Kong API gateway on GKE, with deployments through ArgoCD and Harness and monitoring through Chronosphere and PagerDuty.
+- Administer AWS GovCloud Organizations and enforce governance through Stacklet, Cloud Custodian, and custom automation.
 
-**US Federal Government** Cybersecurity Intern - **May 2022 - August 2022** 
+### CyberArk {#cyberark}
 
-### Research & Associations 
-**Privacy Engineering Regulatory Compliance Lab** Research Assistant - **January 2023 - Present** 
+**August 2023–February 2026 · A Palo Alto Networks company**
 
-**VEMI LAB** Research Assistant - **May 2022 - May 2023** 
+#### DevOps Engineer
 
-**University of Maine Cybersecurity Team** President, Member - **September 2020 - September 2022** 
+**January 2025–February 2026**
 
-**Scalable & Portable Infrastructure for Cybersecurity Education** Research Assistant - **May 2021 - May 2022** 
+- Led deployment of Stacklet's first FedRAMP High instance in AWS GovCloud, from compliance review and audit through monthly continuous monitoring and vulnerability remediation.
+- Developed security and FinOps policies to remove unused resources and remediate cloud misconfigurations. The platform performs **60K+ security and 70K+ FinOps remediations monthly**, saving **over $115K per month**.
+- Rebuilt an instance scheduler using Lambda, DynamoDB, EventBridge, and AWS Organizations tags to start and stop EC2, RDS, and Redshift resources across time zones.
+- Automated GovCloud vulnerability reporting and remediation, supported account onboarding, and helped migrate cloud resources during the Palo Alto Networks acquisition.
 
-### Certifications 
-**AWS Certified Cloud Practitioner** - **December 2023** 
+#### Cloud & Infrastructure Engineer
 
-### Publications 
-**Evaluating Privacy Questions from Stack Overflow: Can ChatGPT Compete?** - ieee 2023 -  [read here](https://ieeexplore.ieee.org/document/10260753)
+**May–December 2024**
 
-### More
+- Administered AWS, FedRAMP GovCloud, Azure, and VMware vSphere environments, alongside on-premises R&D and corporate infrastructure.
+- Led vulnerability management compliance meetings and implemented automation to remove unused cloud resources, reducing cloud platform usage by 65%.
+- Built Ansible playbooks for network switch backups and Linux security agent deployment, and used Terraform to deploy Splunk in a FedRAMP environment.
 
-**CyberArk**  
-During my internship at CyberArk, I gained hands-on experience as a cloud security engineer intern. I am one of
-two security champions on a DevOps team and have developed internal tools for scanning AWS resources
-for compliance. I utilize Jenkins and Pulumi to build and provision resources. For the remaining
-three months of my internship, I will focus on managing our Jenkins platform, implementing security
-scanners into our pipeline, and developing our CI/CD pipeline for our FedRamp environments.
+#### Cloud Security Engineering Intern
 
-**University of Maine**  
-While at the University of Maine, I worked at the VEMI Lab and the Scalable & Portable Infrastructure
-for Cybersecurity Education (SPICE) lab. I am also a research assistant with the Privacy Engineering
-Regulatory Compliance Lab (PERC_Lab). 
+**August 2023–May 2024**
 
-I am a teaching assistant for UMaine’s Introduction to Cybersecurity, which covers the nature of network and computer attacks, system vulnerabilities and
-defense; and implementation issues in Unix/Linux. I help students understand OWASP's top 10, MITRE’s
-CVEs and CWEs, and CISA’s Known Exploited Vulnerabilities Catalog.
+- Built role-based access controls for Grafana with Terraform and Pulumi in FedRAMP environments.
+- Developed automated compliance controls in Python and TypeScript using AWS services, and maintained Jenkins CI/CD pipelines for test and production deployments.
 
-**SPICE Lab**  
-At the SPICE lab, I had the opportunity to lead our research team in the development of cloud and
-physical server infrastructure. As the team moderator, I led our planning meetings and helped delegate
-short-term tasks. I developed our logging solution using Wazuh and the Elastic Stack technologies and
-automated patching and maintenance with Ansible.
+### Earlier experience
 
-To assist with our goals, I used Terraform and Docker-Compose to automate Amazon Web Services provisioning and deployment of services within
-containers. We utilized Docker containers to create scalable cybersecurity labs hosted for University of
-Maine Cybersecurity Team members.
+- **General Dynamics Electric Boat · Systems Engineering Intern · June–July 2023.** Supported integration of Special Operations Forces and other payloads into Virginia-class submarines, and documented technical requirements.
+- **Central Intelligence Agency · Cybersecurity Intern · May–August 2022.** Worked in the Office of Cyber Security on adversarial testing and validation of cyber defenses.
 
-**UMCST**  
-As president of the University of Maine Cybersecurity Team, I led recruits through an ethical hacking lab
-and co-led Linux security, basic networking, and networking enumeration labs. I briefed members on
-cybersecurity current events and technologies each week and led work sessions to prepare for
-competitions. Notably, I captained our third-place winning team at the Northeast Collegiate Cyber
-Defense competition.
+## Tools & technical focus
 
+| Area | Technologies & practices |
+| --- | --- |
+| Cloud & platforms | AWS, GovCloud, Organizations, ECS, GCP, GKE, Docker |
+| Infrastructure & automation | Terraform, Ansible, Jenkins, Cloud Custodian, Stacklet |
+| AI & tooling | AWS Bedrock, Claude, Slack integrations, AI-assisted development |
+| Systems & observability | Linux, Windows Server, Active Directory, VMware, Chronosphere, CloudWatch |
+| Security & compliance | FedRAMP, POA&M, vulnerability management, FinOps, GDPR |
+| Languages | Python, TypeScript, Bash, Groovy |
 
+## Research & leadership
 
+- **Privacy Engineering Regulatory Compliance Lab · Research Assistant · January 2023–present.** Privacy compliance research, literature review, data annotation, and co-authorship of a paper on LLMs and privacy in software development. [More about the lab](./research/PERC_Lab.md).
+- **University of Maine Cybersecurity Team · September 2020–September 2022; President, 2021–2022.** Led meetings and cybersecurity labs, and captained the third-place team at the 2022 Northeast Collegiate Cyber Defense Competition.
+- **SPICE Lab · Research Assistant · May 2021–May 2022.** Developed cloud infrastructure and containerized cybersecurity labs, deployed Wazuh and the ELK Stack, and automated maintenance with Ansible. [More about SPICE](./research/SPICE-Lab.md).
 
+### Publication
 
+**Evaluating Privacy Questions from Stack Overflow: Can ChatGPT Compete?** · IEEE, 2023 · Co-author
 
+[Research overview](./research/ChatGPT-StackOverFlow.md) · [Read on IEEE](https://ieeexplore.ieee.org/document/10260753)
+
+## Education & certification
+
+- **B.S. in Computer Science**, University of Maine · May 2024
+- **AWS Certified Cloud Practitioner** · December 2023

@@ -1,60 +1,54 @@
-import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+const work = [
   {
-    title: 'Explore My Work',
-    image: require('@site/static/img/mountain.jpg').default,
-    description: (
-      <>
-        Check out my projects, my research, and my experience
-      </>
-    ),
-  },
-   {
-    title: 'Learn About My Personal Interests',
-    image: require('@site/static/img/portrait.jpg').default,
-    description: (
-      <>
-        When I'm not working, I like to be by the water, trying new wine and craft beer, cooking a new recipe, or hiking a mountain
-      </>
-    ),
+    number: '01',
+    category: 'CLOUD GOVERNANCE & FINOPS',
+    title: 'Automation with real impact.',
+    description: 'At CyberArk, I wrote cloud policies that remediate security issues and remove unused resources. The platform performs 60K+ security and 70K+ FinOps remediations monthly, saving over $115K per month.',
+    tools: 'AWS · Stacklet · Cloud Custodian',
+    to: '/docs/work/intro#cyberark',
   },
   {
-    title: 'Read My Blog',
-    image: require('@site/static/img/surf.jpg').default,
-    description: (
-      <>
-        I will talk about any sort of topics here, but mainly fine wine and software design
-      </>
-    ),
+    number: '02',
+    category: 'FEDRAMP & RELIABILITY',
+    title: 'Built for demanding environments.',
+    description: 'I led Stacklet’s first FedRAMP High deployment in AWS GovCloud. Today, I own platform availability, upgrades, incident response, and continuous monitoring across GovCloud and commercial AWS.',
+    tools: 'AWS GovCloud · ECS · FedRAMP High',
+    to: '/docs/work/intro#palo-alto-networks',
   },
-
+  {
+    number: '03',
+    category: 'AI & DEVELOPER EXPERIENCE',
+    title: 'Better support, less friction.',
+    description: 'I’m building an AI support-triage bot for an SRE team supporting 1,000+ GKE namespaces. It draws on support history and documentation to classify requests and gather the details needed to route them.',
+    tools: 'AWS Bedrock · Lambda · Slack',
+    to: '/docs/work/intro#palo-alto-networks',
+  },
 ];
 
-function Feature({ image, title, description }) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img className={styles.featureImage} src={image} alt={title} /> {/* Use the image prop */}
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <section className={styles.section} aria-labelledby="work-heading">
+      <div className={styles.heading}>
+        <div>
+          <p className={styles.eyebrow}>01 / WHAT I WORK ON</p>
+          <Heading as="h2" id="work-heading">Less manual work.<br />More resilient systems.</Heading>
         </div>
+        <Link to="/docs/work/intro">Full experience <span aria-hidden="true">↗</span></Link>
+      </div>
+      <div className={styles.grid}>
+        {work.map((item) => (
+          <article className={styles.project} key={item.number}>
+            <div className={styles.projectTop}><span>{item.number}</span><span aria-hidden="true">↗</span></div>
+            <p className={styles.category}>{item.category}</p>
+            <Heading as="h3"><Link to={item.to}>{item.title}</Link></Heading>
+            <p className={styles.description}>{item.description}</p>
+            <p className={styles.tools}>{item.tools}</p>
+          </article>
+        ))}
       </div>
     </section>
   );
