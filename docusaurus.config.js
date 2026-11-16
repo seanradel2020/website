@@ -19,7 +19,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {sidebarPath: './sidebars.js'},
-        blog: {showReadingTime: true, blogTitle: 'Projects / Blog'},
+        blog: {showReadingTime: true, blogTitle: 'Projects', blogDescription: 'Projects, architecture write-ups, and research by Sean Radel.'},
         theme: {customCss: './src/css/custom.css'},
       }),
     ],
@@ -33,9 +33,8 @@ const config = {
         title: 'Sean Radel',
         logo: {alt: '', src: 'img/blueprint-monogram.svg', width: 30, height: 30},
         items: [
-          {type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Work'},
-          {type: 'docSidebar', sidebarId: 'lifeSidebar', position: 'left', label: 'Life'},
-          {to: '/blog', label: 'Projects / Blog', position: 'left'},
+          {type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'About Me'},
+          {to: '/blog', label: 'Projects', position: 'left'},
           {href: 'mailto:sradel2024@gmail.com', label: 'Get in touch', position: 'right'},
         ],
       },

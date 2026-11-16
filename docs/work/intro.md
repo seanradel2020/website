@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Work & experience
+title: Experience & skills
 description: Cloud infrastructure, FedRAMP, site reliability, and automation. Sean Radel's engineering experience and research.
 ---
 
