@@ -1,10 +1,16 @@
 ---
 sidebar_position: 1
-title: Life outside work
-description: A little about me, and what I enjoy away from the screen.
+title: About Me
+description: Sean Radel's background in cloud engineering, interests, travel, and life outside work.
 ---
 
-I'm Sean, an engineer who loves being by the water, in the kitchen, or exploring a new city. I enjoy learning new things, spending time outdoors, and traveling with my friends.
+I'm Sean Radel, a **Senior IT Systems Engineer at Palo Alto Networks**. I work across cloud infrastructure, security, governance, and automation, supporting reliable platforms and building tools to solve organizational problems.
+
+Read about my [experience and skills](../work/intro.md), explore my [travel map](./travel.md), or browse my [wine list](./cooking/wine-list.md).
+
+## Outside work
+
+I love being by the water, in the kitchen, or exploring a new city. I enjoy learning new things, spending time outdoors, and traveling with my friends.
 
 ## What I like to do
 
@@ -15,8 +21,6 @@ I'm Sean, an engineer who loves being by the water, in the kitchen, or exploring
 - Play soccer and golf
 - Stay involved in wrestling by volunteer coaching
 - Garden
-
-Explore the places I've visited on my [travel map](./travel.md).
 
 ## A few moments along the way
 

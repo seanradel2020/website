@@ -37,7 +37,7 @@ export default function BlueprintHomepage() {
                 <p className={styles.role}>Senior IT Systems Engineer <span>at Palo Alto Networks</span></p>
               </div>
               <div className={styles.actions}>
-                <Link className={styles.primaryAction} to="/docs/work/intro">See my work <span aria-hidden="true">↗</span></Link>
+                <Link className={styles.primaryAction} to="/docs/life/about">About Me <span aria-hidden="true">↗</span></Link>
                 <a className={styles.secondaryAction} href="mailto:sradel2024@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
               </div>
             </div>
@@ -65,12 +65,12 @@ export default function BlueprintHomepage() {
             <div>
               <p>I operate platforms across AWS, GCP, and FedRAMP environments, and build custom AI tools to solve organizational problems.</p>
               <Link to="/docs/work/intro">Experience & tools <span aria-hidden="true">↗</span></Link>
-              <Link to="/blog">Projects / Blog <span aria-hidden="true">↗</span></Link>
+              <Link to="/blog">Projects <span aria-hidden="true">↗</span></Link>
             </div>
             <div>
               <p className={styles.eyebrow}>TRAVEL & LIFE</p><p>Places I’ve visited and what I enjoy outside work.</p>
               <Link to="/docs/life/travel">Travel <span aria-hidden="true">↗</span></Link>
-              <Link to="/docs/life/about">Life <span aria-hidden="true">↗</span></Link>
+              <Link to="/docs/life/about">About Me <span aria-hidden="true">↗</span></Link>
             </div>
           </section>
         </main>

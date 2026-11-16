@@ -1,6 +1,6 @@
 # Travel map
 
-The Travel page under Life uses this React/SVG component without a map service or additional runtime dependencies. Destinations are grouped by country beneath the map.
+The Travel page under About Me uses this React/SVG component without a map service or additional runtime dependencies. Destinations are grouped by country beneath the map.
 
 - Update [places.mjs](./places.mjs) to add or edit a city or trip destination. Coordinates use longitude, then latitude. City centers and the Finger Lakes region point are approximate.
 - [mapUtils.mjs](./mapUtils.mjs) contains the equirectangular projection, bounded pan/zoom functions, and regional views.
