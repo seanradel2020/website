@@ -23,10 +23,11 @@ The build produces static files in `build/` and checks internal links. The serve
 ## Content & layout
 
 - [Site configuration](./docusaurus.config.js): metadata, navigation, footer, and domain
-- [Homepage](./src/pages/index.js) and [featured work](./src/components/HomepageFeatures/index.js)
-- [Global styles](./src/css/custom.css)
+- [Homepage](./src/pages/index.js) and [Blueprint layout and impact figures](./src/components/BlueprintHomepage/index.js)
+- [Global styles](./src/css/custom.css): the shared Blueprint Blue palette, typography, grid, and content panels
+- Shared [navigation](./src/theme/Navbar/Content/index.js) and [footer](./src/theme/Footer/index.js) used by the homepage, docs, and blog
 - [Professional profile](./docs/work/intro.md) and [personal introduction](./docs/life/about.md)
-- [Research and projects](./docs/work/) and [blog posts](./blog/)
+- [Project write-ups](./docs/work/projects/) and [blog posts and research](./blog/)
 - [Static assets](./static/) and [documentation sidebars](./sidebars.js)
 
 ## Deployment

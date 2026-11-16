@@ -1,8 +1,14 @@
 ---
-sidebar_position: 1
+slug: chatgpt-stackoverflow-privacy
+title: 'Evaluating Privacy Questions from Stack Overflow: Can ChatGPT Compete?'
+authors: [sean]
+tags: [AI, Privacy, Research]
+description: An overview of our 2023 IEEE paper comparing ChatGPT responses with Stack Overflow answers to developers' privacy questions.
 ---
 
-# Publication - IEEE 2023
+In 2023, I co-authored an IEEE paper with the Privacy Engineering Regulatory Compliance Lab exploring how ChatGPT answers developers' privacy questions compared with Stack Overflow. This post brings together the abstract and an overview of that work; the findings reflect the models evaluated in the original study.
+
+<!-- truncate -->
 
 ### Abstract
 

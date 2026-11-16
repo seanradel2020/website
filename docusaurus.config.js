@@ -19,7 +19,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {sidebarPath: './sidebars.js'},
-        blog: {showReadingTime: true},
+        blog: {showReadingTime: true, blogTitle: 'Projects / Blog'},
         theme: {customCss: './src/css/custom.css'},
       }),
     ],
@@ -28,41 +28,25 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/sean-portrait-2026.jpg',
-      colorMode: {defaultMode: 'light', respectPrefersColorScheme: true},
+      colorMode: {defaultMode: 'light', disableSwitch: true, respectPrefersColorScheme: false},
       navbar: {
         title: 'Sean Radel',
-        logo: {alt: '', src: 'img/monogram.svg', width: 32, height: 32},
+        logo: {alt: '', src: 'img/blueprint-monogram.svg', width: 30, height: 30},
         items: [
           {type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Work'},
           {type: 'docSidebar', sidebarId: 'lifeSidebar', position: 'left', label: 'Life'},
-          {to: '/blog', label: 'Writing', position: 'left'},
-          {href: 'https://www.linkedin.com/in/sean-radel/', label: 'LinkedIn', position: 'right'},
-          {href: 'https://github.com/seanradel2020', label: 'GitHub', position: 'right'},
+          {to: '/blog', label: 'Projects / Blog', position: 'left'},
+          {href: 'mailto:sradel2024@gmail.com', label: 'Get in touch', position: 'right'},
         ],
       },
       footer: {
-        style: 'dark',
         links: [
-          {
-            title: 'Explore',
-            items: [
-              {label: 'Work & experience', to: '/docs/work/intro'},
-              {label: 'Life outside work', to: '/docs/life/about'},
-              {label: 'Writing', to: '/blog'},
-            ],
-          },
-          {
-            title: 'Say hello',
-            items: [
-              {label: 'Email', href: 'mailto:sradel2024@gmail.com'},
-              {label: 'LinkedIn', href: 'https://www.linkedin.com/in/sean-radel/'},
-              {label: 'GitHub', href: 'https://github.com/seanradel2020'},
-            ],
-          },
+          {label: 'GitHub', href: 'https://github.com/seanradel2020'},
+          {label: 'LinkedIn', href: 'https://www.linkedin.com/in/sean-radel/'},
         ],
         copyright: `© ${new Date().getFullYear()} Sean Radel`,
       },
-      prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
+      prism: {theme: prismThemes.github, darkTheme: prismThemes.github},
     }),
 };
 
