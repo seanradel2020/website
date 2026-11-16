@@ -1,0 +1,39 @@
+---
+slug: how-this-site-is-deployed
+title: How this website is built, tested, and deployed
+authors: [sean]
+tags: [Docusaurus, CI/CD, GitHub Pages]
+description: The libraries, local checks, GitHub Actions workflow, and GitHub Pages hosting behind radel.dev.
+---
+
+import DeploymentDiagram from '@site/src/components/DeploymentDiagram';
+
+This website is a static Docusaurus site, built with GitHub Actions and hosted on GitHub Pages at **[radel.dev](https://radel.dev)**.
+
+<!-- truncate -->
+
+<DeploymentDiagram />
+
+## Libraries & content
+
+- **Docusaurus 3 + React 18:** routing, documentation, blog pages, and reusable components.
+- **Markdown + MDX:** posts and documentation; **CSS Modules + Infima** provide the styling, and **Prism** highlights code.
+- **React + SVG:** the landing-page impact diagram and interactive travel map. Country outlines come from local Natural Earth data, without a map API.
+- **Static output:** HTML, CSS, JavaScript, and images in `build/`. No application server or database.
+
+## Testing before a merge
+
+- **Map tests:** `node --test src/components/TravelMap/mapUtils.test.mjs` checks destinations, coordinates, pan/zoom limits, and regional views.
+- **Production build:** `npm run build` compiles the site and rejects broken internal URLs.
+- **Browser checks:** review desktop, tablet, and phone layouts, navigation, images, and map interactions with `npm run serve`.
+- **CI coverage:** the deployment workflow runs the production build; the map tests and browser checks are currently local pre-merge checks.
+
+## Deployment & hosting
+
+- **Trigger:** every push to `main`, including a merged pull request, starts the **Deploy to GitHub Pages** workflow.
+- **Runner:** Ubuntu checks out the repository with `actions/checkout@v4` and installs Node.js 18 with `actions/setup-node@v4` and npm caching.
+- **Build:** `npm ci --force` installs the locked dependencies; `npm run build` generates `build/`.
+- **Publish:** `peaceiris/actions-gh-pages@v3` uses `GITHUB_TOKEN` with `contents: write` to publish `build/` to the `gh-pages` branch.
+- **Domain:** the publish action writes `CNAME` for `radel.dev`; GitHub Pages serves the branch root over HTTPS, with the domain’s DNS pointing to Pages.
+
+[Source code](https://github.com/seanradel2020/website) · [Deployment workflow](https://github.com/seanradel2020/website/blob/main/.github/workflows/deploy.yml)
