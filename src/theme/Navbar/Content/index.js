@@ -4,6 +4,7 @@ import {splitNavbarItems, useNavbarMobileSidebar} from '@docusaurus/theme-common
 import NavbarItem from '@theme/NavbarItem';
 import NavbarLogo from '@theme/Navbar/Logo';
 import NavbarMobileSidebarToggle from '@theme/Navbar/MobileSidebar/Toggle';
+import NavbarColorModeToggle from '@theme/Navbar/ColorModeToggle';
 
 export default function NavbarContent() {
   const {navbar} = useThemeConfig();
@@ -18,8 +19,11 @@ export default function NavbarContent() {
     <div className="navbar__items blueprint-navbar__links">
       {leftItems.map((item, index) => <NavbarItem key={index} {...item} />)}
     </div>
-    <div className="navbar__items navbar__items--right blueprint-navbar__actions">
-      {rightItems.map((item, index) => <NavbarItem key={index} {...item} />)}
+    <div className="blueprint-navbar__actions">
+      <div className="navbar__items blueprint-navbar__contact">
+        {rightItems.map((item, index) => <NavbarItem key={index} {...item} />)}
+      </div>
+      <NavbarColorModeToggle className="blueprint-color-toggle" />
     </div>
   </div>;
 }

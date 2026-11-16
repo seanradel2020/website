@@ -28,7 +28,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/sean-portrait-2026.jpg',
-      colorMode: {defaultMode: 'light', disableSwitch: true, respectPrefersColorScheme: false},
+      colorMode: {defaultMode: 'light', disableSwitch: false, respectPrefersColorScheme: false},
       navbar: {
         title: 'Sean Radel',
         logo: {alt: '', src: 'img/blueprint-monogram.svg', width: 30, height: 30},
@@ -45,7 +45,7 @@ const config = {
         ],
         copyright: `© ${new Date().getFullYear()} Sean Radel`,
       },
-      prism: {theme: prismThemes.github, darkTheme: prismThemes.github},
+      prism: {theme: prismThemes.github, darkTheme: prismThemes.vsDark},
     }),
 };
 

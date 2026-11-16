@@ -1,10 +1,10 @@
 .travel {
-  --map-ocean: #e9f0f6;
-  --map-land: #ccd9e5;
-  --map-border: #f8fbfd;
+  --map-ocean: var(--site-map-ocean);
+  --map-land: var(--site-map-land);
+  --map-border: var(--site-map-border);
   --map-visited: var(--ifm-color-primary);
-  --map-visited-country: #99bce7;
-  --map-grid: #c8d7e5;
+  --map-visited-country: var(--site-map-visited-country);
+  --map-grid: var(--site-map-grid);
   margin: 1.5rem 0 3rem;
 }
 
@@ -44,7 +44,7 @@
 .countryCard h3 span { color: var(--site-muted); font-family: var(--ifm-font-family-base); font-size: .65rem; letter-spacing: 0; }
 .destinationChips { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; padding: 0 !important; margin: 0; }
 .destinationChips li { min-width: 0; max-width: 100%; margin: 0 !important; }
-.destinationChips button { max-width: 100%; min-height: 40px; padding: .45rem .8rem; border: 1px solid var(--site-line); border-radius: 2px; background: #f4f7f9; color: var(--ifm-font-color-base); font: inherit; font-size: .78rem; line-height: 1.4; text-align: left; cursor: pointer; }
+.destinationChips button { max-width: 100%; min-height: 40px; padding: .45rem .8rem; border: 1px solid var(--site-line); border-radius: 2px; background: var(--site-subtle-bg); color: var(--ifm-font-color-base); font: inherit; font-size: .78rem; line-height: 1.4; text-align: left; cursor: pointer; }
 .destinationChips button:hover, .destinationChips button[aria-pressed='true'] { border-color: var(--map-visited); color: var(--map-visited); }
 .destinationChips button[aria-pressed='true'] { background: var(--map-ocean); }
 .destinationChips button:focus-visible { outline: 2px solid var(--map-visited); outline-offset: 3px; }
