@@ -35,7 +35,7 @@ const config = {
         items: [
           {type: 'docSidebar', sidebarId: 'aboutSidebar', position: 'left', label: 'About Me'},
           {to: '/blog', label: 'Projects', position: 'left'},
-          {href: 'mailto:sradel2024@gmail.com', label: 'Get in touch', position: 'right'},
+          {to: '/contact', label: 'Contact me', position: 'right'},
         ],
       },
       footer: {

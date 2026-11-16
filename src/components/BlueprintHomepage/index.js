@@ -38,7 +38,7 @@ export default function BlueprintHomepage() {
               </div>
               <div className={styles.actions}>
                 <Link className={styles.primaryAction} to="/docs/life/about">About Me <span aria-hidden="true">↗</span></Link>
-                <a className={styles.secondaryAction} href="mailto:sradel2024@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+                <Link className={styles.secondaryAction} to="/contact">Contact me <span aria-hidden="true">↗</span></Link>
               </div>
             </div>
 
