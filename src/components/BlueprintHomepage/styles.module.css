@@ -4,7 +4,7 @@
   --line: var(--site-line);
   --accent: var(--ifm-color-primary);
   color: var(--fg);
-  color-scheme: light;
+  color-scheme: var(--site-color-scheme, light);
   font-family: var(--ifm-font-family-base);
   font-size: 16px;
   line-height: 1.5;
@@ -29,7 +29,7 @@
 .role { min-width: 0; flex: 1; font-size: 16px; font-weight: 500; line-height: 1.55; color: var(--fg); }
 .role span { display: block; margin-top: 4px; color: var(--fg); font-weight: 600; }
 .actions { display: flex; align-items: center; gap: 26px; margin-top: 30px; font-size: 12px; font-weight: 600; }
-.primaryAction { display: inline-flex; align-items: center; justify-content: space-between; gap: 35px; padding: 14px 19px; background: var(--accent); color: #fff !important; border: 1px solid var(--accent); }
+.primaryAction { display: inline-flex; align-items: center; justify-content: space-between; gap: 35px; padding: 14px 19px; background: var(--accent); color: var(--site-action-ink, #fff) !important; border: 1px solid var(--accent); }
 .primaryAction:hover { filter: brightness(.94); }
 .secondaryAction span { margin-left: 10px; color: var(--accent); }
 .security { --tone: var(--site-risk); }
@@ -41,10 +41,10 @@
 .diagramColumns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 23px; padding: 19px 20px 7px; color: var(--muted); font-size: 7px; letter-spacing: .08em; }
 .flow { display: grid; grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1fr) 20px minmax(0, 1fr); gap: 3px; padding: 22px 20px; align-items: center; border-bottom: 1px solid var(--line); }
 .flow:last-child { border-bottom: 0; }
-.flow:hover { background: #f4f7f9; }
+.flow:hover { background: var(--site-subtle-bg, #f4f7f9); }
 .flowProblem { display: flex; flex-direction: column; gap: 7px; font-size: 10px; }
 .flowProblem svg { width: 21px; height: 21px; color: var(--tone); }
-.flowWork { font-size: 10px; padding: 10px 7px; text-align: center; border: 1px solid var(--line); background: #f4f7f9; }
+.flowWork { font-size: 10px; padding: 10px 7px; text-align: center; border: 1px solid var(--line); background: var(--site-subtle-bg, #f4f7f9); }
 .connector { color: var(--tone); text-align: center; font-size: 16px; }
 .flowResult strong { display: block; color: var(--tone); font-size: 29px; font-weight: 650; letter-spacing: -.06em; }
 .flowResult > span { display: block; font-size: 8px; line-height: 1.4; color: var(--muted); }
@@ -79,7 +79,7 @@
   .role { font-size: 15px; }
   .actions { margin-top: 20px; gap: 22px; font-size: 11px; }
   .primaryAction { padding: 11px 14px; gap: 26px; }
-  .systemDiagram { box-shadow: 4px 4px 0 #dce4eb; }
+  .systemDiagram { box-shadow: 4px 4px 0 var(--site-shadow); }
   .diagramHeader { padding: 11px; font-size: 7px; }
   .diagramColumns { padding: 14px 10px 3px; gap: 20px; font-size: 6px; }
   .flow { padding: 15px 10px; grid-template-columns: minmax(0, 1fr) 12px minmax(0, 1fr) 12px minmax(0, 1fr); gap: 2px; }

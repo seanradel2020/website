@@ -1,8 +1,8 @@
-.diagram { container-type: inline-size; margin: 2rem 0; padding: 20px; border: 1px solid var(--site-border); background: #eff3f6; box-shadow: 3px 3px 0 var(--site-shadow); }
+.diagram { container-type: inline-size; margin: 2rem 0; padding: 20px; border: 1px solid var(--site-border); background: var(--site-bg); box-shadow: 3px 3px 0 var(--site-shadow); }
 .diagram figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; color: var(--site-ink); font: 10px 'SFMono-Regular', Consolas, monospace; letter-spacing: .05em; }
 .diagram figcaption span { color: var(--site-muted); font-family: var(--ifm-font-family-base); letter-spacing: 0; }
 .flow { display: grid; gap: 28px; list-style: none; margin: 22px 0 0; padding: 0 !important; }
-.flow li { position: relative; min-width: 0; margin: 0 !important; padding: 15px; border: 1px solid var(--site-border); background: #fff; display: grid; gap: 7px; }
+.flow li { position: relative; min-width: 0; margin: 0 !important; padding: 15px; border: 1px solid var(--site-border); background: var(--site-surface); display: grid; gap: 7px; }
 .flow li + li::before { content: '↓'; position: absolute; top: -29px; left: calc(50% - 8px); width: 16px; height: 28px; color: var(--ifm-color-primary); font-size: 22px; text-align: center; line-height: 28px; }
 .stepNumber { color: var(--ifm-color-primary); font: 11px 'SFMono-Regular', Consolas, monospace; }
 .flow strong { color: var(--site-ink); font-size: 15px; letter-spacing: -.025em; }
